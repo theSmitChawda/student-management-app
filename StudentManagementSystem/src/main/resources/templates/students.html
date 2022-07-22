@@ -50,7 +50,12 @@
 		      <td>
 		      	<div class="row">
 					<div class="col-lg-3">
-						<a th:href="@{/students/update}" class="btn btn-primary btn-sm mb-3">Update</a>
+						<a th:href="@{/students/update/{id}(id=${student.id})}" class="btn btn-primary btn-sm mb-3">Update</a>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-lg-3">
+						<a th:href="@{/students/delete/{id}(id=${student.id})}" class="btn btn-danger btn-sm mb-3">Delete</a>
 					</div>	
 				</div>
 		      </td>		      
