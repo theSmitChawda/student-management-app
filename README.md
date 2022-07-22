@@ -1,5 +1,7 @@
 # Student Management Web Application
 
+-------------------------------------------------------------
+
 ### Spring Boot | Spring MVC | Thymelaef | BootStrap 4  
 
 ### This is a simple Student Management System web application that allows you to read, add, delete and update the student information online.
@@ -19,3 +21,5 @@
 
 >deleting student in the H2 DB
 <img width="959" alt="delete-students" src="https://user-images.githubusercontent.com/59838606/180516111-828237f8-f912-42c0-94e6-160c45ae941a.png">
+
+-------------------------------------------------------------
